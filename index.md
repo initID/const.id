@@ -88,6 +88,18 @@ const MaxConnections = 10
 
 The `const` keyword precedes the constant declaration, and the constant `MaxConnections` is assigned the value `10`. Constants in Go cannot be modified.
 
+## GDScript
+
+In GDScript, constants are typically declared using uppercase variable names. Here's an example:
+
+```gdscript
+const MAX_VALUE = 100
+const MIN_VALUE := 0
+```
+
+You can use colon or equal sign to declare constants, both are valid. However the colon is preferred since it implies type inference.
+
+
 ## Swift
 
 In Swift, `let` is used to declare constants. Here's an example:
